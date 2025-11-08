@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=70", "wheel", "numpy>=1.22"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ligotools"
+description = "Helpers for the LIGO tutorial used in STAT 159/259 HW3"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.22",
+  "scipy>=1.8",
+  "matplotlib>=3.6",
+  "h5py>=3.7",
+  "pandas>=1.5",
+  "requests>=2.28"
+]
+license = "BSD-3-Clause"
+license-files = ["LICEN[CS]E*"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent"
+]
+keywords = ["ligo","stat159","reproducibility"]
+dynamic = ["version"]
+authors = [
+  { name = "Ligo Scientific Collaboration (LSC)" },
+  { name = "Ji Su Youn" }
+]
+
+[project.urls]
+Homepage = "https://github.com/UCB-stat-159-f25/hw3-kayajuicee"
+Issues   = "https://github.com/UCB-stat-159-f25/hw3-kayajuicee/issues"
+
+[tool.setuptools]
+packages = ["ligotools"]
+
+[tool.setuptools.dynamic]
+version = {attr = "ligotools.__version__"}
