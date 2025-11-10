@@ -2,6 +2,7 @@ README.md
 pyproject.toml
 ligotools/__init__.py
 ligotools/readligo.py
+ligotools/utils.py
 ligotools.egg-info/PKG-INFO
 ligotools.egg-info/SOURCES.txt
 ligotools.egg-info/dependency_links.txt
