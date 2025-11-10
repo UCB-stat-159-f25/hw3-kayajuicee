@@ -1,0 +1,18 @@
+project:
+  title: "HW3 – LIGO"
+  authors:
+    - name: "Ligo Scientific Collaboration (LSC) and Ji Su Youn"
+  license: "CC-BY-4.0"
+
+site:
+  template: book-theme
+  options:
+    binder:
+      url: "https://mybinder.org/v2/gh/UCB-stat-159-f25/hw3-kayajuicee/main"
+      notebooks:
+        - notebooks/LOSC_Event_tutorial.ipynb
+
+toc:
+  - file: README.md
+  - title: "LOSC Event Tutorial"
+    file: notebooks/LOSC_Event_tutorial.ipynb
